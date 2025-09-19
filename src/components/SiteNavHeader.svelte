@@ -6,7 +6,7 @@
   import ButtonCustom from '@components/buttons/ButtonCustom.svelte';
   import Hamburger from '@icons/Hamburger.svelte';
   import ForwardArrow from '@icons/ForwardArrow.svelte';
-  import McswfLogoAndText from '@components/logos/McswfLogoAndText.svelte';
+  import MIUMCLogoAndText from '@components/logos/MIUMCLogoAndText.svelte';
   import { externalLinks } from '@content/externalLinks';
 
   let dropdownOpen = false;
@@ -65,7 +65,7 @@
   class="w-full sticky top-0 z-30 bg-custom-gradient-blue-header shadow-sm shadow-stone-950">
   <MaxWidthContainer>
     <div class="flex flex-row justify-between items-center w-full py-2 sm:py-4 md:gap-4 lg:gap-8">
-      <McswfLogoAndText displayImage={false} />
+      <MIUMCLogoAndText displayImage={false} />
       {#if dropdownOpen}
         <div
           class="ml-auto hidden md:block"

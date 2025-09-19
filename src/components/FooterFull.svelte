@@ -1,6 +1,6 @@
 <script>
   import MaxWidthContainer from '@components/sections/MaxWidthContainer.svelte';
-  import McswfLogoAndText from '@components/logos/McswfLogoAndText.svelte';
+  import MIUMCLogoAndText from '@components/logos/MIUMCLogoAndText.svelte';
   import { LinkedIn } from '@icons/iconExports';
   import { externalLinks } from '@content/externalLinks';
 
@@ -17,7 +17,7 @@
       <div class="hidden lg:block container pb-28 mx-auto lg:py-8">
         <div class="flex justify-around py-4 border-b">
           <div class="flex w-2/5 align-middle mb-4 space-x-3 sm:mb-0 rtl:space-x-reverse">
-            <McswfLogoAndText displayImage={true} />
+            <MIUMCLogoAndText displayImage={true} />
           </div>
           <div class="w-3/5">
             <h1 class="text-lg font-bold">VISION</h1>
@@ -90,7 +90,7 @@
       <!-- MOBILE FOOTER -->
       <div class="block lg:hidden container pb-32 mx-auto">
         <div class="flex justify-start py-4 border-b">
-          <McswfLogoAndText displayImage={true} />
+          <MIUMCLogoAndText displayImage={true} />
         </div>
         <div class="flex justify-start py-4 align-middle border-b">
           <a
